@@ -97,6 +97,9 @@ function updateCircle(){
   cals.text = today.adjusted.calories;
   floors.text = today.adjusted.elevationGain;
   batteryp.text = battery.chargeLevel;
+  csteps = today.adjusted.steps;
+  ccals = today.adjusted.calories;
+  cfloors = today.adjusted.elevationGain;
   if(csteps > goal){
     cone = 360;
   }else{
