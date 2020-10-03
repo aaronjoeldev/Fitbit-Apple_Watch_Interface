@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
+  "fitbit": {
+    "appUUID": "355dcd8b-9d13-48b0-bf05-bd0d260a02e9",
+    "appType": "clockface",
+    "appDisplayName": "Apple Watch Interface",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Apple Watch Interface"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

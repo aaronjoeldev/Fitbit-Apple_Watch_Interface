@@ -1,0 +1,89 @@
+.sensor-label {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 20;
+  x: 50%;
+  y: $+5;
+}
+
+.sensor-data {
+  font-family: System-Light;
+  fill: red;
+  font-weight:bold;
+  text-anchor: end;
+  text-length: 64;
+  font-size: 40;
+  y: 125;
+  x: 290;
+}
+*{
+  text-length: 20;
+}
+#clock-label{
+  fill:white;
+  font-size:75;
+  y: 80;
+  x: 120;
+}
+
+#heart{
+  y: 100;
+  x: 200;
+}
+
+#steps{
+  fill:#FC105C;
+  font-size:30;
+  x:290;
+  y: 175;
+  font-size:40;
+  text-anchor: end; 
+}
+
+#cals{
+  fill:#A8FF00;
+  font-size:30;
+  x:290;
+  y: 215;
+  font-size:40;
+  text-anchor: end; 
+}
+#floors{
+  fill: #00FFAD;
+  x: 290;
+  y: 255;
+  font-size:40;
+  text-anchor: end; 
+}
+
+#sgoal{
+  x:-30;
+  y: 60;
+}
+#cgoal{
+  x: -10;
+  y:80;
+}
+#fgoal{
+  x: 10;
+  y:100;
+}
+#datum{
+  fill:white;
+  font-size:30;
+  x: 20;
+  y: 80;
+}
+#battery{
+  x:-35;
+  y:-45;
+}
+#percentage{
+  fill:white;
+  font-size: 20;
+  x:40;
+  y:36;
+  text-anchor: middle;
+}

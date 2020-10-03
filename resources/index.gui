@@ -1,0 +1,72 @@
+<svg>
+  <rect width="100%" height="20" x="0" y="0" />
+   <text id="clock-label">00:00</text>
+  <text id ="datum">01.01</text>
+  
+  <!-- Battery -->
+      <svg id="battery">
+      <!-- Arc - sweep-angle modified in index.js -->
+      <g transform="translate(50%, 50%)">
+        <arc id="arc-sweep7" x="-100" y="-100" width="50" height="50" fill="#393939" arc-width="5" start-angle="0" sweep-angle="360" />
+      </g>    
+      <g transform="translate(50%, 50%)">
+        <arc id="arc-sweep8" x="-100" y="-100" width="50" height="50" fill="#08e878" arc-width="5" start-angle="0" sweep-angle="20" />
+      </g>
+    </svg>
+  <text id="percentage">95</text>
+  
+  <svg viewport-fill="gray">
+  <image id="heart" width="25" height="25" href="herz.png" />
+  </svg>
+  <text id="hrm-data" class="sensor-data">00</text>
+  <text id="steps">00000</text>
+  <text id="cals">00000</text>
+  <text id="floors">00000</text>
+  
+  <!-- Step goal tracking -->
+      <svg id="sgoal">
+      <!-- Arc - sweep-angle modified in index.js -->
+      <g transform="translate(50%, 50%)">
+        <arc id="arc-sweep1" x="-100" y="-100" width="150" height="150" fill="#33010F" arc-width="18" start-angle="0" sweep-angle="360" />
+      </g>    
+      <g transform="translate(50%, 50%)">
+        <arc id="arc-sweep2" x="-100" y="-100" width="150" height="150" fill="crimson" arc-width="18" start-angle="0" sweep-angle="0" />
+      </g>
+
+
+      <!-- Circle - Beginning of arc (not animated) -->
+      <circle cx="50%" cy="50%-85" r="9" fill="crimson" />
+
+      <!-- Circle - End of arc (follows arc sweep point) animated in index.js -->
+      <g id="end-circle" transform="translate(50%, 50%)">
+        <circle cx="0" cy="-85" r="9" fill="crimson" />
+      </g>
+    </svg>
+ 
+   <!-- Calorie goal tracking -->
+      <svg id="cgoal">
+      <!-- Arc - sweep-angle modified in index.js -->
+      <g transform="translate(50%, 50%)">
+        <arc id="arc-sweep3" x="-100" y="-100" width="110" height="110" fill="#213301" arc-width="18" start-angle="0" sweep-angle="360" />
+      </g>    
+      <g transform="translate(50%, 50%)">
+        <arc id="arc-sweep4" x="-100" y="-100" width="110" height="110" fill="#A8FF00" arc-width="18" start-angle="0" sweep-angle="0" />
+      </g>
+
+
+     
+    </svg>
+  
+  <!-- Floor goal tracking -->
+      <svg id="fgoal">
+      <!-- Arc - sweep-angle modified in index.js -->
+      <g transform="translate(50%, 50%)">
+        <arc id="arc-sweep5" x="-100" y="-100" width="70" height="70" fill="#013031" arc-width="18" start-angle="0" sweep-angle="0" />
+      </g>    
+      <g transform="translate(50%, 50%)">
+        <arc id="arc-sweep6" x="-100" y="-100" width="70" height="70" fill="#00FFB3" arc-width="18" start-angle="0" sweep-angle="0" />
+      </g>
+
+
+    </svg>
+</svg>
